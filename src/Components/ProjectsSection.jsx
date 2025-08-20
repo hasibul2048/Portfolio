@@ -1,6 +1,7 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import React from "react";
 
+
 const ProjectsSection = () => {
   const projects = [
     {
@@ -8,7 +9,7 @@ const ProjectsSection = () => {
       title: "Modern Gym Website",
       description:
         "This is a demo website of a gym created using only HTML & CSS",
-      image: "/project1.png",
+      image: "../src/Assets/project1.png",
       tags: ["HTML", "CSS"],
       demoUrl: "#",
       githubUrl: "https://github.com/hasibul2048/gym-website",
@@ -17,7 +18,7 @@ const ProjectsSection = () => {
       id: 2,
       title: "Weather App",
       description: "This app showes the weather of different cities",
-      image: "/project2.png",
+      image: "../src/Assets/project2.png",
       tags: ["HTML", "CSS", "JavaScript"],
       demoUrl: "#",
       githubUrl: "https://github.com/hasibul2048/weather-app",
@@ -27,7 +28,7 @@ const ProjectsSection = () => {
       title: "Emoji Rating",
       description:
         "This is a rating app. Where the emoji changes according to the ratings",
-      image: "/project3.png",
+      image: "../src/Assets/project3.png",
       tags: ["HTML", "CSS", "JavaScript"],
       demoUrl: "#",
       githubUrl: "https://github.com/hasibul2048/emoji-rating",
@@ -36,7 +37,7 @@ const ProjectsSection = () => {
       id: 4,
       title: "Simple Calculator",
       description: "This one is just a simple calculator",
-      image: "/project4.png",
+      image: "../src/Assets/project4.png",
       tags: ["HTML", "CSS", "JavaScript"],
       demoUrl: "#",
       githubUrl: "https://github.com/hasibul2048/Simple-Calculator",
