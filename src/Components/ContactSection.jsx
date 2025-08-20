@@ -64,13 +64,13 @@ const ContactSection = () => {
           <div className="pt-8">
             <h4 className="text-2xl font-semibold mb-6">Connect With Me</h4>
             <div className="flex space-x-4 justify-center">
-              <a href="" target="_blank">
+              <a href="https://www.linkedin.com/in/md-hasibul-hasan15/" target="_blank">
                 <Linkedin />
               </a>
-              <a href="" target="_blank">
+              <a href="https://www.facebook.com/mdhasibul.hasan.113446/" target="_blank">
                 <Facebook />
               </a>
-              <a href="" target="_blank">
+              <a href="https://github.com/hasibul2048" target="_blank">
                 <Github />
               </a>
             </div>
