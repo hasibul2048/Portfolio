@@ -1,5 +1,9 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import React from "react";
+import project1 from "../Assets/project1.png"
+import project2 from "../Assets/project2.png"
+import project3 from "../Assets/project3.png"
+import project4 from "../Assets/project4.png"
 
 
 const ProjectsSection = () => {
@@ -9,7 +13,7 @@ const ProjectsSection = () => {
       title: "Modern Gym Website",
       description:
         "This is a demo website of a gym created using only HTML & CSS",
-      image: "../src/Assets/project1.png",
+      image: project1,
       tags: ["HTML", "CSS"],
       demoUrl: "#",
       githubUrl: "https://github.com/hasibul2048/gym-website",
@@ -18,7 +22,7 @@ const ProjectsSection = () => {
       id: 2,
       title: "Weather App",
       description: "This app showes the weather of different cities",
-      image: "../src/Assets/project2.png",
+      image: project2,
       tags: ["HTML", "CSS", "JavaScript"],
       demoUrl: "#",
       githubUrl: "https://github.com/hasibul2048/weather-app",
@@ -28,7 +32,7 @@ const ProjectsSection = () => {
       title: "Emoji Rating",
       description:
         "This is a rating app. Where the emoji changes according to the ratings",
-      image: "../src/Assets/project3.png",
+      image: project3,
       tags: ["HTML", "CSS", "JavaScript"],
       demoUrl: "#",
       githubUrl: "https://github.com/hasibul2048/emoji-rating",
@@ -37,7 +41,7 @@ const ProjectsSection = () => {
       id: 4,
       title: "Simple Calculator",
       description: "This one is just a simple calculator",
-      image: "../src/Assets/project4.png",
+      image: project4,
       tags: ["HTML", "CSS", "JavaScript"],
       demoUrl: "#",
       githubUrl: "https://github.com/hasibul2048/Simple-Calculator",
